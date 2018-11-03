@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eg.edu.alexu.csd.oop.calculator.cs24.Main_Controller">
+   <center>
+      <GridPane prefHeight="271.0" prefWidth="145.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="1" textFill="#bcacac" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="2" textFill="#bcacac" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="3" textFill="#bcacac" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="4" textFill="#bcacac" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="5" textFill="#bcacac" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="6" textFill="#bcacac" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="7" textFill="#bcacac" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="8" textFill="#bcacac" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="9" textFill="#bcacac" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="100.0" prefWidth="251.0" style="-fx-background-color: black;" text="0" textFill="#bcacac" GridPane.columnSpan="2147483647" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="." textFill="#bcacac" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="134.0" prefWidth="227.0" style="-fx-background-color: black;" text="+" textFill="#bcacac" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="-" textFill="#bcacac" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#result" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="=" textFill="#bcacac" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="124.0" prefWidth="178.0" style="-fx-background-color: black;" text="*" textFill="#bcacac" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#set_operation" prefHeight="112.0" prefWidth="125.0" style="-fx-background-color: black;" text="/" textFill="#bcacac" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="39.0" />
+               </font></Button>
+            <Label fx:id="result" alignment="CENTER" prefHeight="100.0" prefWidth="251.0" style="-fx-background-color: gray;" text="Result" textAlignment="CENTER" GridPane.columnSpan="2147483647" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Century" size="59.0" />
+               </font></Label>
+            <TextField fx:id="input" alignment="CENTER" prefHeight="110.0" prefWidth="150.0" style="-fx-background-color: orange;" GridPane.columnSpan="2147483647">
+               <font>
+                  <Font name="Comic Sans MS" size="43.0" />
+               </font></TextField>
+            <Button mnemonicParsing="false" onAction="#input" prefHeight="127.0" prefWidth="176.0" style="-fx-background-color: yellow;" text="Input" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Century" size="31.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>
